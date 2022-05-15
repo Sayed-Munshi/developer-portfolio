@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-text {
+    color: orange;
+}
+
+section {
+    padding: 40px;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 40px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.experiences-style {
+    width: 50%;
+    box-shadow: 5px 10px 8px 8px #888888;
+    margin: 30px;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+#full-stac {
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+#baby-web-deve {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
